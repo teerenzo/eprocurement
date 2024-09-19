@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eprocument-core" />
+        <module name="eprocument-common" />
+        <module name="eprocument-rest" />
+        <module name="eprocument-test" />
+        <module name="eprocurement-integration" />
+        <module name="eprocument-event" />
+      </profile>
+      <profile name="Disabled" enabled="true" />
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eprocument-common" options="" />
+      <module name="eprocument-core" options="" />
+      <module name="eprocument-event" options="" />
+      <module name="eprocument-rest" options="" />
+      <module name="eprocument-test" options="" />
+      <module name="eprocurement-integration" options="" />
+    </option>
+  </component>
+</project>

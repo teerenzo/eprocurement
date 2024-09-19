@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>eprocurement-parent</artifactId>
+        <version>${revision}</version>
+        <relativePath>../eprocurement-parent</relativePath>
+    </parent>
+
+
+    <artifactId>eprocurement-integration</artifactId>
+    <packaging>jar</packaging>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>eprocument-rest</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+
+
+
+
+    </dependencies>
+
+    <profiles>
+        <profile>
+            <id>local</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <appProfile>local</appProfile>
+                <spring.profiles.active>local</spring.profiles.active>
+                <file.build>${project.name}-${revision}-local</file.build>
+            </properties>
+            <dependencies>
+                <dependency>
+                    <groupId>org.springdoc</groupId>
+                    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+                    <version>${springdoc.openapi.webmvc.ui.version}</version>
+                </dependency>
+            </dependencies>
+        </profile>
+        <profile>
+            <id>uat</id>
+            <properties>
+                <appProfile>uat</appProfile>
+                <spring.profiles.active>uat</spring.profiles.active>
+                <file.build>${project.name}-${revision}-uat</file.build>
+            </properties>
+        </profile>
+    </profiles>
+
+    <build>
+        <finalName>${file.build}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>3.1.2</version>
+                <configuration>
+                    <executable>true</executable>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+
+
+</project>

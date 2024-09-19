@@ -1,0 +1,39 @@
+19 Sep 2024;07:43:26.254 INFO  Version HV000001: Hibernate Validator 8.0.1.Final
+19 Sep 2024;07:43:26.312 INFO  EprocurementIntegrationApplication Starting EprocurementIntegrationApplication using Java 21.0.4 with PID 41728 (C:\Users\erenz\OneDrive\Desktop\projects\eprocurement\eprocurement-integration\target\classes started by erenz in C:\Users\erenz\OneDrive\Desktop\projects\eprocurement)
+19 Sep 2024;07:43:26.313 INFO  EprocurementIntegrationApplication The following 1 profile is active: "local"
+19 Sep 2024;07:43:26.971 INFO  RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19 Sep 2024;07:43:27.123 INFO  RepositoryConfigurationDelegate Finished Spring Data repository scanning in 147 ms. Found 3 JPA repository interfaces.
+19 Sep 2024;07:43:28.312 INFO  TomcatWebServer Tomcat initialized with port 8084 (http)
+19 Sep 2024;07:43:28.316 INFO  Http11NioProtocol Initializing ProtocolHandler ["http-nio-8084"]
+19 Sep 2024;07:43:28.317 INFO  StandardService Starting service [Tomcat]
+19 Sep 2024;07:43:28.318 INFO  StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.16]
+19 Sep 2024;07:43:28.382 INFO  [/] Initializing Spring embedded WebApplicationContext
+19 Sep 2024;07:43:28.382 INFO  ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2018 ms
+19 Sep 2024;07:43:28.586 INFO  HikariDataSource HikariPool-1 - Starting...
+19 Sep 2024;07:43:28.758 INFO  HikariPool HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@97beeaf
+19 Sep 2024;07:43:28.759 INFO  HikariDataSource HikariPool-1 - Start completed.
+19 Sep 2024;07:43:28.847 INFO  VersionPrinter Flyway Community Edition 9.22.3 by Redgate
+19 Sep 2024;07:43:28.847 INFO  VersionPrinter See release notes here: https://rd.gt/416ObMi
+19 Sep 2024;07:43:28.847 INFO  VersionPrinter 
+19 Sep 2024;07:43:28.863 INFO  FlywayExecutor Database: jdbc:postgresql://127.0.0.1:5432/eprocurement (PostgreSQL 16.4)
+19 Sep 2024;07:43:28.868 WARN  Database Flyway upgrade recommended: PostgreSQL 16.4 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+19 Sep 2024;07:43:28.904 INFO  DbValidate Successfully validated 4 migrations (execution time 00:00.026s)
+19 Sep 2024;07:43:28.936 INFO  DbMigrate Current version of schema "public": 4000
+19 Sep 2024;07:43:28.938 INFO  DbMigrate Schema "public" is up to date. No migration necessary.
+19 Sep 2024;07:43:29.094 INFO  LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+19 Sep 2024;07:43:29.160 INFO  Version HHH000412: Hibernate ORM core version 6.3.1.Final
+19 Sep 2024;07:43:29.194 INFO  RegionFactoryInitiator HHH000026: Second-level cache disabled
+19 Sep 2024;07:43:29.444 INFO  SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+19 Sep 2024;07:43:30.312 INFO  JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19 Sep 2024;07:43:30.314 INFO  LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+19 Sep 2024;07:43:31.886 INFO  UserMessageUtility Loading user messages from framework  language en_us
+19 Sep 2024;07:43:31.887 INFO  UserMessageUtility Loading user messages from example  language en_us
+19 Sep 2024;07:43:31.888 ERROR UserMessageUtility Unable to load bundle example_messages for language en_us
+19 Sep 2024;07:43:31.926 INFO  TextValidationService Loading validation messages for language en_us
+19 Sep 2024;07:43:31.937 INFO  PasswordValidationService Loading validation messages for language en_us
+19 Sep 2024;07:43:33.034 INFO  DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57fefa97, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5700053f, org.springframework.security.web.context.SecurityContextHolderFilter@57202722, org.springframework.security.web.header.HeaderWriterFilter@1a57bb34, org.springframework.web.filter.CorsFilter@28a4ac78, org.springframework.security.web.authentication.logout.LogoutFilter@5d225368, eprocument.rest.security.JwtFilter@6b71fded, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53e7dfc4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@669bb57, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2caf282e, org.springframework.security.web.session.SessionManagementFilter@4e0b9055, org.springframework.security.web.access.ExceptionTranslationFilter@3cfd9459, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f3bd40a]
+19 Sep 2024;07:43:34.786 INFO  Http11NioProtocol Starting ProtocolHandler ["http-nio-8084"]
+19 Sep 2024;07:43:34.806 INFO  TomcatWebServer Tomcat started on port 8084 (http) with context path ''
+19 Sep 2024;07:43:34.808 INFO  CachingConnectionFactory Attempting to connect to: [localhost:5672]
+19 Sep 2024;07:43:34.879 INFO  CachingConnectionFactory Created new connection: rabbitConnectionFactory#6dd0e2f4:0/SimpleConnection@661a5ac0 [delegate=amqp://guest@127.0.0.1:5672/, localPort=54367]
+19 Sep 2024;07:43:34.937 INFO  EprocurementIntegrationApplication Started EprocurementIntegrationApplication in 8.96 seconds (process running for 9.628)

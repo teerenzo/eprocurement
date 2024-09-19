@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75b3037c-1e24-4376-8b6b-8b8e188eacdd" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/eprocument-common">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/eprocument-event">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/eprocument-common">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eprocument-common" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eprocument-common" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2lejcU6Xrkm5uFpzFc3ItaKKoDb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.TestUserService.executor": "Run",
+    "JUnit.TestUserService.test.executor": "Run",
+    "JUnit.TestUserService.testCreateUser.executor": "Run",
+    "Maven.eprocument-build [clean,install].executor": "Run",
+    "Maven.eprocument-build [clean].executor": "Run",
+    "Maven.eprocument-build [dependency:tree].executor": "Run",
+    "Maven.eprocument-build [install].executor": "Run",
+    "Maven.eprocument-build [test].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.EprocumentTestApplication (1).executor": "Run",
+    "Spring Boot.EprocurementIntegrationApplication.executor": "Run",
+    "jdk.selected.JAVA_MODULE": "jbr-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/erenz/OneDrive/Desktop/projects/eprocurement",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.291954",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="eprocument.core.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\erenz\OneDrive\Desktop\projects\eprocurement\eprocument-test\src\test" />
+      <recent name="C:\Users\erenz\OneDrive\Desktop\projects\eprocurement\eprocument-test\src\test\java\eprocument\etest" />
+      <recent name="C:\Users\erenz\OneDrive\Desktop\projects\eprocurement\eprocument-core\src\main\resources" />
+      <recent name="C:\Users\erenz\OneDrive\Desktop\projects\eprocurement\eprocurement-integration\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="eprocument.core.service.security" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+      <command value="mvn dependency:tree " />
+      <command value="mvn clean install" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EprocurementIntegrationApplication">
+    <configuration name="TestUserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eprocument-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eprocument.test.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eprocument.test.user" />
+      <option name="MAIN_CLASS_NAME" value="eprocument.test.user.TestUserService" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserService.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eprocument-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eprocument.test.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eprocument.test.user" />
+      <option name="MAIN_CLASS_NAME" value="eprocument.test.user.TestUserService" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserService.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eprocument-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eprocument.test.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eprocument.test.user" />
+      <option name="MAIN_CLASS_NAME" value="eprocument.test.user.TestUserService" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EprocumentCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eprocument-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eprocument.common.EprocumentCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EprocumentCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eprocument-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eprocument.core.EprocumentCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EprocumentEventApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eprocument-event" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eprocument.event.EprocumentEventApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EprocumentEventApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eprocument-event.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eprocument.event.EprocumentEventApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EprocumentRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eprocument-rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eprocument.rest.EprocumentRestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EprocumentTestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eprocument-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eprocument.test.application.EprocumentTestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eprocument.test.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EprocumentTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eprocument-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eprocument.test.EprocumentTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EprocurementIntegrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eprocurement-integration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eprocument.integration.EprocurementIntegrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestUserService" />
+        <item itemvalue="Spring Boot.EprocumentTestApplication (1)" />
+        <item itemvalue="JUnit.TestUserService" />
+        <item itemvalue="JUnit.TestUserService.testCreateUser" />
+        <item itemvalue="JUnit.TestUserService.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75b3037c-1e24-4376-8b6b-8b8e188eacdd" name="Changes" comment="" />
+      <created>1725547517361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725547517361</updated>
+      <workItem from="1725547518418" duration="1931000" />
+      <workItem from="1725549462639" duration="54000" />
+      <workItem from="1725549573092" duration="425000" />
+      <workItem from="1725632904121" duration="6312000" />
+      <workItem from="1725616160384" duration="14224000" />
+      <workItem from="1725634351814" duration="2077000" />
+      <workItem from="1725864659782" duration="166000" />
+      <workItem from="1725864831113" duration="15497000" />
+      <workItem from="1726470796420" duration="12372000" />
+      <workItem from="1726490060255" duration="1318000" />
+      <workItem from="1726511824573" duration="10174000" />
+      <workItem from="1726522166510" duration="2517000" />
+      <workItem from="1726558277241" duration="11727000" />
+      <workItem from="1726644843014" duration="15909000" />
+      <workItem from="1726742059795" duration="397000" />
+      <workItem from="1726742589143" duration="193000" />
+      <workItem from="1726743206637" duration="2565000" />
+      <workItem from="1726749160830" duration="2370000" />
+      <workItem from="1726751989301" duration="39000" />
+      <workItem from="1726752068841" duration="4909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eprocument-core/src/main/java/eprocument/core/service/UserService.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

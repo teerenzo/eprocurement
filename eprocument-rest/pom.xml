@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>eprocurement-parent</artifactId>
+        <version>${revision}</version>
+        <relativePath>../eprocurement-parent/pom.xml</relativePath>
+    </parent>
+
+
+    <artifactId>eprocument-rest</artifactId>
+    <packaging>jar</packaging>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>ifmis.framework</groupId>
+            <artifactId>ifmis-framework-rest</artifactId>
+            <version>${ifmis.framework.version}</version>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>ifmis.framework</groupId>-->
+<!--            <artifactId>ifmis-framework-security</artifactId>-->
+<!--            <version>${ifmis.framework.version}</version>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>eprocument-event</artifactId>
+            <version>${revision}</version>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.example</groupId>-->
+<!--            <artifactId>eprocument-common</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
+
+    </dependencies>
+
+
+
+</project>
